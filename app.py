@@ -12,7 +12,7 @@ from langchain_core.output_parsers import StrOutputParser
 pdf = PyPDFLoader("C:\\Users\\srinivas\\Desktop\\Innomatics Intership\\GenAI pdf\\No context behind paper.pdf")
 
 #Initializing the embedding model
-embedding_model = GoogleGenerativeAIEmbeddings(google_api_key="AIzaSyAZPv1J2lWwq_mTqaTlB5qQo4Iiy-IviPk",
+embedding_model = GoogleGenerativeAIEmbeddings(google_api_key,
                                                model="models/embedding-001")
 
 #storing and retriving using chromadb
