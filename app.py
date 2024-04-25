@@ -36,7 +36,7 @@ chat_template = ChatPromptTemplate.from_messages([
 ])
 
 #Initializing chat model
-chat_model = ChatGoogleGenerativeAI(google_api_key= "AIzaSyAZPv1J2lWwq_mTqaTlB5qQo4Iiy-IviPk",
+chat_model = ChatGoogleGenerativeAI(google_api_key,
                                     model="gemini-1.5-pro-latest")
 
 
